@@ -105,7 +105,7 @@ def MajorLoGin(PyL):
     conn = http.client.HTTPSConnection("loginbp.ggblueshark.com", context=context)
     headers = {
         "X-Unity-Version": "2018.4.11f1",
-        "ReleaseVersion": "OB51",
+        "ReleaseVersion": "OB52",
         "Content-Type": "application/x-www-form-urlencoded",
         "X-GA": "v1 1",
         "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 7.1.2; ASUS_Z01QD Build/QKQ1.190825.002)",
@@ -261,14 +261,14 @@ class FF_CLient:
 
                             # ---- FIXED MESSAGE (no f-string issues) ----
                             msg_part1 = (
-                                "-HELLO I AM SPIDEERIO GAMING  !\n\n"
+                                "-HELLO I AM WATASHII  !\n\n"
                                 "SUBSCRIBE ME ON YOUTUBE  OR BE BANNED \n\n"
-                                "SPIDEERIO GAMING : "
+                                "DEV  : WATASHII"
                             )
-                            msg_part2 = "@spideerio !! \n\n"
+                            msg_part2 = "@watashii!! \n\n"
                             msg_part3 = (
-                                "telegram team channel : @MorpheusBlackEra \n\n"
-                                "DEV Telegram username : @spideerio"
+                                "telegram team channel : @WATASHII_IS HERE \n\n"
+                                "DEV Telegram username : @Watashii"
                             )
 
                             full_msg = (
@@ -366,13 +366,13 @@ class FF_CLient:
         return combined_timestamp, key, iv
 
     def GeT_LoGin_PorTs(self, JwT_ToKen, PayLoad):
-        self.UrL = "https://clientbp.ggwhitehawk.com/GetLoginData"
+        self.UrL = "https://clientbp.ggpolarbear.com/GetLoginData"
         self.HeadErs = {
             "Expect": "100-continue",
             "Authorization": f"Bearer {JwT_ToKen}",
             "X-Unity-Version": "2018.4.11f1",
             "X-GA": "v1 1",
-            "ReleaseVersion": "OB51",
+            "ReleaseVersion": "OB52",
             "Content-Type": "application/x-www-form-urlencoded",
             "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 9; G011A Build/PI)",
             "Host": "clientbp.ggwhitehawk.com",
@@ -396,7 +396,7 @@ class FF_CLient:
             if U and P:
                 self.PLaFTrom = 4
                 self.A, self.O = G_AccEss(U, P)
-                self.Version, self.V = "2019118695", "1.118.1"
+                self.Version, self.V = "2019118695", "1.120.12"
                 self.PyL = {
                     3: str(datetime.now())[:-7],
                     4: "free fire",
