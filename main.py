@@ -1,4 +1,4 @@
-# DeVloped By AbdeeLkarim Amiri
+# DeVloped By Watashii 
 import requests
 import os
 import psutil
