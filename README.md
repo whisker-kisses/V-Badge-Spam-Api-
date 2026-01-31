@@ -34,7 +34,7 @@ A powerful Flask-based API for managing Free Fire bots with automated attack cap
 
 1. **Clone or download the project**
    ```bash
-   cd spamapi
+   cd V-Badge-Spam-Api-
    ```
 
 2. **Install dependencies**
