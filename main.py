@@ -105,11 +105,11 @@ def MajorLoGin(PyL):
     conn = http.client.HTTPSConnection("loginbp.ggblueshark.com", context=context)
     headers = {
         "X-Unity-Version": "2018.4.11f1",
-        "ReleaseVersion": "OB52",
+        "ReleaseVersion": "OB53",
         "Content-Type": "application/x-www-form-urlencoded",
         "X-GA": "v1 1",
         "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 7.1.2; ASUS_Z01QD Build/QKQ1.190825.002)",
-        "Host": "loginbp.ggblueshark.com",
+        "Host": "loginbp.ggpolarbear.com",
         "Connection": "Keep-Alive",
         "Accept-Encoding": "gzip",
     }
@@ -372,10 +372,10 @@ class FF_CLient:
             "Authorization": f"Bearer {JwT_ToKen}",
             "X-Unity-Version": "2018.4.11f1",
             "X-GA": "v1 1",
-            "ReleaseVersion": "OB52",
+            "ReleaseVersion": "OB53",
             "Content-Type": "application/x-www-form-urlencoded",
             "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 9; G011A Build/PI)",
-            "Host": "clientbp.ggwhitehawk.com",
+            "Host": "clientbp.ggpolarbear.com",
             "Connection": "close",
             "Accept-Encoding": "gzip, deflate, br",
         }
@@ -396,7 +396,7 @@ class FF_CLient:
             if U and P:
                 self.PLaFTrom = 4
                 self.A, self.O = G_AccEss(U, P)
-                self.Version, self.V = "2019118695", "1.120.12"
+                self.Version, self.V = "2019118695", "1.123.16"
                 self.PyL = {
                     3: str(datetime.now())[:-7],
                     4: "free fire",
